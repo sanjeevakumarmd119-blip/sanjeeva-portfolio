@@ -3,3 +3,4 @@
   "buildCommand": "node scripts/generate-resume-pdf.mjs && node scripts/generate-resume-docx.mjs && next build",
   "outputDirectory": ".next"
 }
+

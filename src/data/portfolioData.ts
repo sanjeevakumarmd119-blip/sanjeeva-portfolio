@@ -215,3 +215,4 @@ export const NAV_LINKS = [
   { label: "Skills", href: "#skills" },
   { label: "Contact", href: "#contact" },
 ];
+

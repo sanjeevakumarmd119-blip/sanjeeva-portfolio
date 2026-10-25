@@ -23,6 +23,11 @@ export const metadata: Metadata = {
     "Arduino",
     "DaVinci Resolve",
   ],
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+    apple: "/icon.svg",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -56,9 +61,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-      </head>
       <body className="min-h-screen bg-[#FAFAFA] text-[#171717] antialiased selection:bg-[#FFF0EE] selection:text-[#F04444]">
         {children}
       </body>
