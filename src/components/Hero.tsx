@@ -89,21 +89,13 @@ export default function Hero() {
             <div className="relative mx-auto max-w-md lg:max-w-none">
               
               {/* Main Architectural Card */}
-              <div className="bg-[#FFFFFF] border border-border rounded-xl p-6 sm:p-7 shadow-card relative overflow-hidden">
-                
-                {/* Background Watermark Initials */}
-                <div
-                  className="absolute -right-4 -bottom-6 text-[120px] font-black text-[#FAFAFA] select-none pointer-events-none tracking-tighter leading-none"
-                  aria-hidden="true"
-                >
-                  SK
-                </div>
+              <div className="bg-[#FFFFFF] border border-border rounded-xl p-6 sm:p-7 shadow-card relative">
 
-                {/* Card Header: Identity Monogram & Status */}
+                {/* Card Header: Identity & Status */}
                 <div className="flex items-center justify-between pb-5 border-b border-border">
                   <div className="flex items-center gap-3">
-                    <div className="w-12 h-12 rounded-lg bg-[#171717] text-white flex items-center justify-center font-black text-lg tracking-wider border border-[#171717]">
-                      SK
+                    <div className="w-10 h-10 rounded-lg bg-[#FAFAFA] text-[#F04444] flex items-center justify-center border border-border">
+                      <Terminal className="w-5 h-5" />
                     </div>
                     <div>
                       <h2 className="text-base font-bold text-[#171717] tracking-tight leading-tight">
