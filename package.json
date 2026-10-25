@@ -1,0 +1,31 @@
+{
+  "name": "sanjeeva-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "node scripts/generate-resume-pdf.mjs && node scripts/generate-resume-docx.mjs && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "node scripts/verify-portfolio.mjs",
+    "generate-resume": "node scripts/generate-resume-pdf.mjs && node scripts/generate-resume-docx.mjs"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.447.0",
+    "next": "14.2.15",
+    "pdf-lib": "^1.17.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.16.10",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.6.2"
+  }
+}
